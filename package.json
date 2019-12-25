@@ -13,7 +13,7 @@
     "clean": "rm -rf dist",
     "dev": "microbundle --ts watch",
     "tslint": "tslint -c tslint.json 'src/**/*.ts'",
-    "prepare": "npm run clean && npm run build"
+    "prepack": "npm run clean && npm run build"
   },
   "files": [
     "cjs",
